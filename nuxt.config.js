@@ -5,7 +5,7 @@ export default {
   target: 'static',
 
   generate: {
-    fallback: '200.html'
+    fallback: true
   },
 
   alias: {
