@@ -1,11 +1,10 @@
 {
-  "framework": "nuxtjs",
-  "buildCommand": "npm run generate",
-  "outputDirectory": "dist",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".nuxt/dist/client",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/200.html"
+      "dest": "/index.html"
     }
   ]
 }
