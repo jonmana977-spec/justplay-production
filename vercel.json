@@ -1,14 +1,11 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
+  "framework": "nuxtjs",
+  "buildCommand": "npm run generate",
+  "outputDirectory": "dist",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/200.html"
     }
   ]
 }
